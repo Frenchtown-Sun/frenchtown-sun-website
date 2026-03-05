@@ -1,0 +1,7 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "The Frenchtown Borough Sun"
+
+params:
+  # used by layouts/partials/head.html
+  style_css: "css/style.css"
