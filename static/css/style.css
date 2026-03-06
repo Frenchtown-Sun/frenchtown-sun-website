@@ -1,0 +1,51 @@
+html {
+  background-color: #dac5b4;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nameplate {
+  background: white;
+}
+
+.nameplate-line-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+.nameplate-vertical-divider {
+  border-left: thin solid black;
+  margin: 0 30px;
+}
+
+.nameplate-horizontal-divider {
+  border-top: thin solid black;
+  margin: 10px 10px;
+}
+
+.tagline {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0;
+}
+
+.borough-seal {
+  height: 100px;
+  width: auto;
+}
+
+.sun-icon {
+  height: 100px;
+  width: auto;
+}
