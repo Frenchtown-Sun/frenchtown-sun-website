@@ -11,10 +11,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.nameplate {
+  width: fit-content;
   background: white;
+
+  /* Center the nameplate/nav */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nameplate-line-1 {
@@ -48,4 +50,18 @@ body {
 .sun-icon {
   height: 100px;
   width: auto;
+}
+
+.vertical-divider {
+  margin: 0 30px;
+  border-left: thin solid black;
+}
+
+.top-menu {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.top-menu a {
+  color: black;
 }
