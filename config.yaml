@@ -1,7 +1,7 @@
-baseURL: "http://example.org/"
+baseURL: "https://frenchtownsun.net/"
 languageCode: "en-us"
 title: "The Frenchtown Borough Sun"
 
 params:
-  # used by layouts/partials/head.html
+  # used by layouts/_default/baseof.html
   style_css: "css/style.css"
