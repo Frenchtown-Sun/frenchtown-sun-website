@@ -1,5 +1,5 @@
 ---
-title: "The Frenchtown Borough Sun"
+title: "Frenchtown Borough Sun"
 draft: false
 ---
 
