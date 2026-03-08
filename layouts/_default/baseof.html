@@ -14,12 +14,9 @@
   <body>
     {{- partial "top-nav.html" . -}}
 
-    <div>
+    <div class="content">
       <!-- Pull whatever's in the corresponding content/<something>/_index.md -->
       {{ .Content }}
-      {{- block "main" . -}}
-        <!-- The part of the page that begins to differ between templates -->
-      {{- end -}}
     </div>
   </body>
 </html>
