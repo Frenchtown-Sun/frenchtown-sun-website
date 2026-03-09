@@ -1,0 +1,82 @@
+html {
+  background-color: #dac5b4;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+
+  /* Center the content */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.nameplate-line-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+.nameplate-vertical-divider {
+  border-left: thin solid black;
+  margin: 0 30px;
+}
+
+.nameplate-horizontal-divider {
+  border-top: thin solid black;
+  margin: 10px 10px;
+}
+
+.tagline {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0;
+}
+
+.borough-seal {
+  height: 100px;
+  width: auto;
+}
+
+.sun-icon {
+  height: 100px;
+  width: auto;
+}
+
+.vertical-divider {
+  margin: 0 30px;
+  border-left: thin solid black;
+}
+
+.top-menu {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+  /* Center the menu items */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.top-menu a {
+  color: black;
+}
+
+.content {
+  margin: 20px;
+}
