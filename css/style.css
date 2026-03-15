@@ -14,6 +14,9 @@ body {
   /* Center the content */
   margin-left: auto;
   margin-right: auto;
+
+  /* Our newsletter font */
+  font-family: "Source Serif 4", serif;
 }
 
 .top-nav {
@@ -52,7 +55,7 @@ body {
   width: auto;
 }
 
-.sun-icon {
+.title-image {
   height: 100px;
   width: auto;
 }
