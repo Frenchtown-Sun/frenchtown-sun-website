@@ -19,7 +19,10 @@ This is a static site, using [Hugo](https://gohugo.io). A github workflow automa
 
 ## TODO
 * enable https
-* Redo header with fonts & icon
-* favicon
 * About page
 * figure out how to embed/include first issue
+  * Make a few examples as hidden pages to show folks at the wednesday meeting.
+    * Use https://robinmoisson.github.io/staticrypt/ to protect
+    1. simple embed
+    2. "view first issue, or download" with separate pure-embed page
+    3. pdf to png (pdftoppm)

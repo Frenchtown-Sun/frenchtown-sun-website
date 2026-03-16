@@ -19,12 +19,18 @@ body {
   font-family: "Source Serif 4", serif;
 }
 
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .top-nav {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: fit-content;
+  background: white;
 }
 
 .nameplate-line-1 {
@@ -82,4 +88,10 @@ body {
 
 .content {
   margin: 20px;
+}
+
+.embedded-issue {
+  display: block;
+  width: 800px;
+  min-height: 1200px;
 }
