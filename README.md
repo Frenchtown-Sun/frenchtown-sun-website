@@ -25,4 +25,4 @@ This is a static site, using [Hugo](https://gohugo.io). A github workflow automa
     * Use https://robinmoisson.github.io/staticrypt/ to protect
     1. simple embed
     2. "view first issue, or download" with separate pure-embed page
-    3. pdf to png (pdftoppm)
+    3. pdf to png (pdftoppm) (can I watermark w/ DRAFT?)
