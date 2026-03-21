@@ -60,15 +60,16 @@ body {
   width: auto;
   height: auto;
   max-height: 100px;
-  max-width: 20vw;
+  object-fit: contain;
+  max-width: 10vw;
 }
 
 .title-image {
   width: auto;
   height: auto;
   max-height: 100px;
-  max-width: 70vw;
   object-fit: contain;
+  max-width: 70vw;
 }
 
 .vertical-divider {
