@@ -57,13 +57,18 @@ body {
 }
 
 .borough-seal {
-  height: 100px;
   width: auto;
+  height: auto;
+  max-height: 100px;
+  max-width: 20vw;
 }
 
 .title-image {
-  height: 100px;
   width: auto;
+  height: auto;
+  max-height: 100px;
+  max-width: 70vw;
+  object-fit: contain;
 }
 
 .vertical-divider {
