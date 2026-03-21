@@ -1,4 +1,5 @@
 html {
+  /* Pulled from the mockup template*/
   background-color: #dac5b4;
 }
 
@@ -7,23 +8,22 @@ body {
   background: white;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  width: fit-content;
 
-  /* Center the content */
+  /* Center the content by centering the body */
   margin-left: auto;
   margin-right: auto;
+
+  /* Make the content shrink, so the text on things like the about page
+     doesn't get wider than the header. */
+  width: min-content;
 
   /* Our newsletter font */
   font-family: "Source Serif 4", serif;
 }
 
-.centered {
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* For the nameplate and top-level page links */
 .top-nav {
   display: flex;
   align-items: center;
@@ -33,21 +33,23 @@ body {
   background: white;
 }
 
+/* Holds the seal and title image */
 .nameplate-line-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 20px 10px;
+  margin: 10px 10px;
 }
 
+/* The lines for the nameplate. Margins experimentally determined. */
 .nameplate-vertical-divider {
   border-left: thin solid black;
-  margin: 0 30px;
+  margin: 0 20px;
 }
 
 .nameplate-horizontal-divider {
   border-top: thin solid black;
-  margin: 10px 10px;
+  margin: 5px 10px;
 }
 
 .tagline {
@@ -72,30 +74,32 @@ body {
   max-width: 70vw;
 }
 
-.vertical-divider {
-  margin: 0 30px;
-  border-left: thin solid black;
-}
-
 .top-menu {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
 
   /* Center the menu items */
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Separates the links in the top-menu */
+.vertical-divider {
+  border-left: thin solid black;
+  margin: 0 30px;
+}
 
 .top-menu a {
   color: black;
 }
 
+/* Page contents */
 .content {
+  /* Inset slightly from the top-nav */
   margin: 20px;
 }
 
+/* Experimental */
 .embedded-issue {
   display: block;
   width: 800px;
