@@ -1,8 +1,8 @@
 ---
-title: "Frenchtown Borough Sun"
+title: "The Frenchtown Sun"
 draft: false
 ---
 
-# Hello, Frenchtown!
+# Hello, Frenchtonians!
 
 Coming soon: a Frenchtown-focused, civic newsletter.
