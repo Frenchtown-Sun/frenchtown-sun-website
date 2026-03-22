@@ -33,6 +33,11 @@ body {
   background: white;
 }
 
+/* Make spacing a little more consistent */
+.nameplate {
+  margin-top: 5px;
+}
+
 /* Holds the seal and title image */
 .nameplate-line-1 {
   display: flex;
