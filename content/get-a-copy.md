@@ -3,6 +3,8 @@ title: "The Frenchtown Sun -- Get a Copy"
 draft: false
 ---
 
+Physical copies will be available at the Frenchtown Market IGA, Frenchtown Pharmacy, Frenchtown Borough Hall & Library, Frenchtown Home & Hardware, the coffee shops, and in each Frenchtonian's mailbox.
+
 **Frenchtown Borough Residents** should all recieve a copy in the mail. If you don't receive a copy or if your copy is addressed incorrectly, you can request a change in three ways:
 * By filling out [this form online](https://docs.google.com/forms/d/e/1FAIpQLSdKqZt4ukgGP9e6sTLfPdWnHIinsPzXzBActlEjmqmXkzlP7g/viewform)
 * By emailing your name and address to The Sun at newsletter+address@frenchtownboro.com

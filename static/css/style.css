@@ -103,6 +103,11 @@ body {
   margin: 20px;
 }
 
+.content p img {
+  width: 100%;
+  height: auto;
+}
+
 /* Experimental */
 .embedded-issue {
   display: block;
