@@ -5,7 +5,7 @@ draft: false
 
 # May Edition now available
 
-To view a searchable, downloadable (PDF) copy, [click here](/editions/Frenchtown-Sun-April-2026.pdf). Old editions are in the [archives](/archives).
+To view a searchable, downloadable (PDF) copy, [click here](/editions/Frenchtown-Sun-May-2026.pdf). Old editions are in the [archives](/archives).
 
 Also available in print form! (see [here](/get-a-copy))
 
