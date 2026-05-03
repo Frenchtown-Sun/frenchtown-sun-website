@@ -1,8 +1,10 @@
 ---
 title: "The Frenchtown Sun -- Archives"
 draft: false
+layout: archives
+type: custom
+aliases: 
+  - /editions
 ---
 
 # All Editions
-* [April, 2026](/editions/Frenchtown-Sun-April-2026.pdf)
-* [May, 2026](/editions/Frenchtown-Sun-May-2026.pdf)

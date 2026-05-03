@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  {{/* This is the archives page, with a list of all the editions, so grab that section to iterate */}}
+  {{ range where .Site.Sections "Section" "editions" }}
+    {{/* Collect a sorted list of years */}}
+    {{ $years := slice }}
+    {{ range .Pages }}
+      {{ $years = $years | append .Params.Year }}
+    {{ end }}
+    {{ $years = sort $years "" "desc" }}
+    {{ $years = uniq $years }}
+
+    {{ $pages := .Pages }}
+    {{/* Print a list of editions for each year */}}
+    {{ range $years }}
+      {{ $thisYear := . }}
+      <h3>{{ $thisYear }}</h3>
+      <ul>
+      {{/* Sort the pages for this year by month Jan->Dec */}}
+      {{ range (sort (where $pages ".Params.Year" $thisYear ) ".Params.MonthIndex") }}
+        {{/* Print a link to that edition page */}}
+        <li><a href="{{ .Path }}">{{ .Title }}</a></li>
+      {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -36,9 +36,7 @@
     {{- partial "top-nav.html" . -}}
 
     <div class="content">
-      <!-- Pull whatever's in the corresponding content/<something>/_index.md -->
-      {{ .Content }}
-      <!-- Not sure this is necessary, but single.html seems to want to declare a main. -->
+      <!-- Each layout will define a main that gets plopped in here. -->
       {{- block "main" . -}}
       {{- end -}}
     </div>

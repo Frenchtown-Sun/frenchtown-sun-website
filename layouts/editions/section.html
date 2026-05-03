@@ -1,0 +1,7 @@
+{{/* Displays the list of articles in the edition. */}}
+{{ define "main" }}
+  {{ range .Pages.ByWeight }}
+    <h3 class="article-title">{{ .Title | markdownify }}</h3> <a href="{{ .Path }}" class="article-permalink">[permalink]</a>
+    {{ .Content }}
+  {{ end }}
+{{ end }}

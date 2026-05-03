@@ -1,7 +1,15 @@
 baseURL: "https://frenchtownsun.net/"
-languageCode: "en-us"
 title: "The Frenchtown Sun"
 
 params:
   # used by layouts/_default/baseof.html
   style_css: "css/style.css"
+
+taxonomies:
+
+# allows putting html tags in markdown, but requires greater care if we ever
+# pull in external files.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
