@@ -107,3 +107,16 @@ body {
   width: 100%;
   height: auto;
 }
+
+.article-permalink {
+  font-size: x-small;
+}
+
+.article-title {
+  display: inline;
+}
+
+.article-small-pic {
+  display: block;
+  max-width: 30%;
+}

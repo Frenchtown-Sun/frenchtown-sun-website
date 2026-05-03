@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <h3>{{ .Title | markdownify }}</h3>
+  {{ .Content }}
+
+  <i>From the <a href="{{ .Parent.Path }}">{{ .Parent.Title }} edition</a>.</i>
+{{ end }}
