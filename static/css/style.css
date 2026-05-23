@@ -117,6 +117,14 @@ body {
 }
 
 .article-small-pic {
+  display: inline;
+  max-width: 30%;
+}
+.article-small-pic::before {
   display: block;
+}
+
+.person-table img {
+  display: inline;
   max-width: 30%;
 }
