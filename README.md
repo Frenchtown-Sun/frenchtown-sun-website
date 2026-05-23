@@ -34,4 +34,14 @@ When a new edition comes out (current workflow):
 
 ## TODO
 * Figure out how to pull the text and images and use those in a consistent, automated way, not just pngs of the pages.
+  * Seems like I've got a path, but I want to make sure I include checks to make it hard to mess up:
+    * If I need a flag to make the current edition show up on the main page, enforce only one edition has that flag
+    * more generally, check each `edition/_index.md` has good frontmatter, and each article under an edition has correct frontmatter
+    * Check for images in static/ that aren't referenced in any .md
+    * alt text on all images
+  * If I'm going to make things look nice manually, I need to add guides on how to do each thing.
+    * person-tables for obituaries and "meet the people" articles? General strategy of "wrap in a div to target class -> img or class -> p in css"?
+    * OR is it better to just do some in straight html?
+  * Q for maria:
+    * things like the picture from the April edition on the first page. Does that go with the S. Wash. improvements, or the edition?
 * Digital Calendar

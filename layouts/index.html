@@ -1,2 +1,9 @@
 {{ define "main" }}
+
+  {{ range .Pages.ByWeight }}
+    {{ debug.Dump . }}
+    <h3 class="article-title">{{ .Title | markdownify }}</h3> <a href="{{ .Path }}" class="article-permalink">[permalink]</a>
+  </p>
+    <!-- {{ .Content }} -->
+  {{ end }}
 {{ end }}
