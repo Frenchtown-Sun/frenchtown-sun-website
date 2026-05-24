@@ -4,6 +4,9 @@ edition: "2026-05"
 weight: 12
 layout: "article"
 ---
+
+{{% portrait_with_text img="/editions/2026-05/Frenchtown-Sun-May-2026-009.png" alt="Wendy Louise Baker" %}}
+
 A careful observer, strolling through the Frenchtown Cemetery, might notice a small, metal, grave marker inscribed: JANE DOE. It has been there since 1996, but this summer it may be replaced with a headstone with her real name on it: Wendy Louise Baker.
 
 On Oct. 26, 1991, the body of a teenage girl was found by hunters in Warren County just off Interstate 80 not far from the Delaware River. Due to decomposition, the authorities could not determine the cause of her death, but it was declared a homicide.
@@ -21,4 +24,5 @@ Although Jane Doe had been unidentified for 30 years, the Warren County Prosecut
 Wendy was raised by her stepmother until she ran away from Florida at age 15 before landing in Coatesville, Pa., where she had relatives. When she disappeared, they assumed she had run away again and was living her life elsewhere. Her cousin Cindy Baker said of Wendy, “I don’t want to say \[she was\] a lost soul, but she seemed like she was kind of bounced here, bounced there, you know.”
 
 Wendy’s granite tombstone will cost about $750. Andrew said, “I am going to transport it across-country in my own car sometime in the latter half of June. It will be a pilgrimage\!” —Rick Epstein
+{{% /portrait_with_text %}}
 

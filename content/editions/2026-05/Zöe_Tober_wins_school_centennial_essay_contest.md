@@ -4,6 +4,9 @@ edition: "2026-05"
 weight: 15
 layout: "article"
 ---
+
+![The winning Frenchtown School essayists are (from left) Zöe Tober, first prize; Josh Sanchez-Quackenbush, second prize; and Rosie Strasser, third prize.](/editions/2026-05/Frenchtown-Sun-May-2026-010.png)
+
 The winners of the Frenchtown School centennial essay contest are Zöe Tober, first prize; Joshua Sanchez-Quackenbush, second prize; and Rosalie Strasser, third prize. Zöe and Rosie are eighth graders and Josh is a seventh grader.
 
 They were among nine students who wrote on the theme “The Next 100 Years,” under the helpful supervision of Frenchtown School’s Language Arts duo—teacher Beth McCann and aide Ken Nohe. Donated by an anonymous benefactor, $100 will go to Zöe, $50 to Josh, and $25 to Rosie.

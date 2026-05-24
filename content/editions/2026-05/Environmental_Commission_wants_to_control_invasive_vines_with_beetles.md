@@ -4,7 +4,9 @@ edition: "2026-05"
 weight: 3
 layout: "article"
 ---
-![xxx](/second-issue/mam.jpg)
+
+![Mile-a-Minute vine](/editions/2026-05/Frenchtown-Sun-May-2026-004.png)
+_When you see leaves that look like this, you’re looking at trouble._
 
 As the soil warms up this spring, seedlings of the invasive and terribly aggressive Mile-a-Minute vine (Persicaria perfoliata) will sprout. Also known as devil’s tail, giant climbing tearthumb, and Asiatic tearthumb, this vine grows extremely rapidly and can take over gardens and woodlands, overgrowing shrubs, trees and outdoor furniture and buildings.
 
