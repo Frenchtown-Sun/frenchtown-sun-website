@@ -40,8 +40,7 @@ When a new edition comes out (current workflow):
     * Check for images in static/ that aren't referenced in any .md
     * alt text on all images
   * If I'm going to make things look nice manually, I need to add guides on how to do each thing.
-    * person-tables for obituaries and "meet the people" articles? General strategy of "wrap in a div to target class -> img or class -> p in css"?
-    * OR is it better to just do some in straight html?
+    * instructions for shortcodes
   * Q for maria:
     * things like the picture from the April edition on the first page. Does that go with the S. Wash. improvements, or the edition?
 * Digital Calendar
