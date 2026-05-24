@@ -5,8 +5,7 @@ weight: 5
 layout: "article"
 ---
 
-![Brad Myhre](/editions/2026-04/Frenchtown-Sun-April-2026-004.jpg)
-
+{{% portrait_with_text img="/editions/2026-04/Frenchtown-Sun-April-2026-004.jpg" alt="Brad Myhre" %}}
 BRAD 
 MYHRE was 
 born and 
@@ -32,3 +31,4 @@ spending time with friends,
 testing his knowledge during 
 trivia nights at Wild Fern 
 Brewery.
+{{% /portrait_with_text %}}

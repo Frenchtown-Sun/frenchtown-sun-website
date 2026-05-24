@@ -124,7 +124,8 @@ body {
   display: block;
 }
 
-.person-table img {
-  display: inline;
+.portrait {
+  float: left;
   max-width: 30%;
+  margin: 0 1em 1em 0;
 }
