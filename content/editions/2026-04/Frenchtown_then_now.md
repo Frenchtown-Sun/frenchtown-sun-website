@@ -36,5 +36,7 @@ decay, finally demolishing it in
 1972. 
 —_Rick Epstein_
 
-![Then](/editions/2026-04/Frenchtown-Sun-April-2026-014.jpg)
-![Now](/editions/2026-04/Frenchtown-Sun-April-2026-015.jpg)
+{{% then_now_imgs 
+  then=/editions/2026-04/Frenchtown-Sun-April-2026-014.jpg
+  now=/editions/2026-04/Frenchtown-Sun-April-2026-015.jpg
+%}}

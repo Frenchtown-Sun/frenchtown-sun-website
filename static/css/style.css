@@ -109,7 +109,8 @@ body {
 }
 
 .article-permalink {
-  font-size: x-small;
+  font-size: small;
+  text-decoration: none;
 }
 
 .article-title {
@@ -128,4 +129,9 @@ body {
   float: left;
   max-width: 30%;
   margin: 0 1em 1em 0;
+}
+
+.then-now img {
+  width: 49%;
+  display: inline;
 }
