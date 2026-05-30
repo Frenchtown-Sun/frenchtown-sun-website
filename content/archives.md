@@ -6,3 +6,4 @@ draft: false
 # All Editions
 * [April, 2026](/editions/Frenchtown-Sun-April-2026.pdf)
 * [May, 2026](/editions/Frenchtown-Sun-May-2026.pdf)
+* [June, 2026](/editions/Frenchtown-Sun-June-2026.pdf)
