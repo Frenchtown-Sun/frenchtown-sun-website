@@ -22,6 +22,10 @@ This is a static site, using [Hugo](https://gohugo.io). A github workflow automa
 * Articles are arranged into "editions", which also depend on info in the frontmatter of a corresponding `editions/<YYYY-MM>/_index.md`
 * scripts/split_content.py can be used to split a markdown file containing all the articles into a set of articles with correct frontmatter.
 * The `/archives` is where editions are listed, and `/editions` is set up to redirect there. This could've been done the other way around, but I liked this slightly better.
+* There are a couple of other one-off pages, alike the about page.
+* The pdf versions of the paper (what we send to the printer) are in `static/editions/`
+* Images associated with each edition are in `static/editions/<YYYY-MM>>/`
+* The css for the whole thing is in `static/css`
 
 ## Updating
 When a new edition comes out (current workflow):
@@ -48,17 +52,11 @@ When a new edition comes out (current workflow):
     * If something refers to another page (like _see page 4_), just link to the relevant thing.
 
 ## TODO
-* Figure out how to pull the text and images and use those in a consistent, automated way, not just pngs of the pages.
-  * Seems like I've got a path, but I want to make sure I include checks to make it hard to mess up:
-    * If I need a flag to make the current edition show up on the main page, enforce only one edition has that flag
-    * more generally, check each `edition/_index.md` has good frontmatter, and each article under an edition has correct frontmatter
+* Add checks to enforce formatting/make it hard to mess up:
+    * Check each `edition/_index.md` has good frontmatter, and each article under an edition has correct frontmatter
     * Check for images in static/ that aren't referenced in any .md
-    * alt text on all images
+    * alt text on images?
     * Telephone numbers should be links with href="tel:555-555-5555"
-  * If I'm going to make things look nice manually, I need to add guides on how to do each thing.
-    * instructions for shortcodes
-  * Q for maria:
-    * things like the picture from the April edition on the first page. Does that go with the S. Wash. improvements, or the edition?
 * Digital Calendar
 * How to handle Corrections?
   * It would be neat if corrected articles had a ~~strikethrough~~ and a \[CORRECTION: something something\] with a link to the "corrections" from the next issue.
