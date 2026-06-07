@@ -5,6 +5,9 @@
     {{/* Just look at the latest edition */}}
     {{ range first 1 .Pages.ByDate.Reverse }}
       <h1>{{ .Title }} Edition</h1>
+      To view a searchable, downloadable (PDF) copy, <a href="{{ .Params.pdf }}">click here</a>. Old editions are in the <a href="/archives">archives</a>.
+      <p>Also available in print form! (see <a href="/get-a-copy">here</a>)
+
       {{/* If the _index.md has any content, like a leading photo. */}}
       {{ .Content }}
       {{ range .Pages.ByWeight }}
