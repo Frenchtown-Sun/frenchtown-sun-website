@@ -15,6 +15,7 @@ Borough and
 has served 
 as mayor 
 since 2015.
+
 During his tenure, Myhre has 
 helped lead several important 
 infrastructure improvements and 

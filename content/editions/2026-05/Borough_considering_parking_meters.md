@@ -9,8 +9,8 @@ Turnover of parking spaces in downtown Frenchtown continues to be a significant 
 To address this issue, the borough is actively discussing the potential implementation of parking meters—an approach successfully used in many comparable river towns—to encourage greater turnover of parking spaces.
 
 In addition to improving access to downtown businesses, metered parking would:  
-·     Help ensure adequate funding for police coverage and EMS services during peak tourism months  
-·     Create a dedicated revenue stream for downtown beautification and ongoing maintenance  
-·     Shift a portion of the financial burden from residential taxpayers to visitors who utilize public parking  
-This is part of a broader effort to balance accessibility, economic vitality, and quality of life, particularly during the busy summer season.
+* Help ensure adequate funding for police coverage and EMS services during peak tourism months  
+* Create a dedicated revenue stream for downtown beautification and ongoing maintenance  
+* Shift a portion of the financial burden from residential taxpayers to visitors who utilize public parking  
 
+This is part of a broader effort to balance accessibility, economic vitality, and quality of life, particularly during the busy summer season.

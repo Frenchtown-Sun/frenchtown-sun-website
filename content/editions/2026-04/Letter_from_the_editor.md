@@ -48,4 +48,5 @@ contribution to our community. I
 hope you will join me on this 
 journey to share all that this 
 magnificent borough has to offer.
+
 —_Maria Whelan_

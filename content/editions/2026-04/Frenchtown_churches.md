@@ -18,6 +18,7 @@ month at 6 p.m. If you have questions, contact Rev.
 McCachren at rev.emily.mcc@gmail.com.
 
 FRENCHTOWN UNITED METHODIST CHURCH
+
 Every Tuesday and Friday morning, the 
 Frenchtown United Methodist Church cooking club 
 cooks from 9:30 a.m. until noon. The club prepares

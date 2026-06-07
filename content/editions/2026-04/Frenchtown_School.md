@@ -37,7 +37,7 @@ chorus and band concert and art
 show—will be May 28 at 6 p.m.
 All are welcome!
 
-### FRENCHTOWN SCHOOL CENTENNIAL CELEBRATION
+### Frenchtown School Centennial Celebration
 
 On the afternoon of Sept. 26, 
 the Frenchtown School will 
@@ -69,7 +69,7 @@ planning, help build some
 carnival games, and/or volunteer 
 to help with various tasks on the 
 day of the event, please call Sandy 
-Miller at 908-996-2751 or email 
+Miller at <a href="908-996-2751">908-996-2751</a> or email 
 smiller@frenchtownschool.org.
 
 Mark your calendars and 

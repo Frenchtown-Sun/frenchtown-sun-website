@@ -54,4 +54,4 @@ emergency contact person. Visit
 www.frenchtownpolice.com for 
 the application and waiver or 
 contact the Police Department at 
-908-996-4820.
+<a href="tel:908-996-4820">908-996-4820</a>.
