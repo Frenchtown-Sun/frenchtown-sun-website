@@ -28,6 +28,10 @@ h1, h2, h3 {
   letter-spacing: 0.5px;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* For the nameplate and top-level page links */
 .top-nav {
   display: flex;
