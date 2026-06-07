@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ .Content }}
   {{/* We want to display the latest edition on the front page, so pull up the editions */}}
   {{ range where .Site.Sections "Section" "editions" }}
     {{/* Just look at the latest edition */}}

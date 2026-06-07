@@ -67,6 +67,51 @@ def write_articles(articles, edition_dir):
             wfp.writelines(front_matter)
             wfp.writelines(article["text"])
 
+# TODO: Replace with date.strptime from python 3.14 when I can use that.
+def get_month_name(month_int):
+    if month_int == 1:
+        return "January"
+    if month_int == 2:
+        return "February"
+    if month_int == 3:
+        return "March"
+    if month_int == 4:
+        return "April"
+    if month_int == 5:
+        return "May"
+    if month_int == 6:
+        return "June"
+    if month_int == 7:
+        return "July"
+    if month_int == 8:
+        return "August"
+    if month_int == 9:
+        return "September"
+    if month_int == 10:
+        return "October"
+    if month_int == 11:
+        return "November"
+    if month_int == 12:
+        return "December"
+
+def add_index(edition, edition_dir):
+    year, month = edition.split('-')
+    year = int(year)
+    month = int(month)
+    month_name = get_month_name(month)
+
+    with open(os.path.join(edition_dir, '_index.md'), 'w') as wfp:
+        front_matter = (
+            '---',
+            f'title: "{month_name}, {year}"',
+            f'year: {year}',
+            f'monthIndex: {month}',
+            f'date: {year}-{month:02}-01',  # Just mark it as the first of the month. Currently just used for sorting.
+            f'pdf: /editions/Frenchtown-Sun-{month_name}-{year}.pdf',
+            '---',
+        )
+        wfp.writelines('\n'.join(front_matter))
+
 def main():
     """Trivial main"""
     args = parse_args()
@@ -78,7 +123,12 @@ def main():
         article["edition"] = args.edition
 
     edition_dir = ensure_edition_dir(args.edition)
-    write_articles(articles, edition_dir)
+    # write_articles(articles, edition_dir)
+    add_index(args.edition, edition_dir)
+
+    print('Remember to extract images with: ')
+    print('`pdfimages -png -all Frenchtown-Sun-<Month>-<YYYY>.pdf Frenchtown-Sun-<Month>-<YYYY>`')
+    print(' and then add them to the articles.')
 
 
 if __name__ == '__main__':

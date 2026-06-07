@@ -19,8 +19,8 @@
       <ul>
       {{/* Sort the pages for this year by month Jan->Dec */}}
       {{ range (sort (where $pages ".Params.Year" $thisYear ) ".Params.MonthIndex") }}
-        {{/* Print a link to that edition page */}}
-        <li><a href="{{ .Path }}">{{ .Title }}</a></li>
+        {{/* Print a link to that edition page, plus one to the pdf */}}
+        <li><a href="{{ .Path }}">{{ .Title }}</a> (or as a <a href="{{ .Params.pdf }}">pdf</a>)</li>
       {{ end }}
       </ul>
     {{ end }}
