@@ -30,7 +30,7 @@ def ensure_edition_dir(edition):
     os.makedirs(edition_dir, exist_ok=True)
     return edition_dir
 
-def split_into(content):
+def split_into_articles(content):
     articles = []
     most_recent = None
     for line in content:
@@ -38,6 +38,7 @@ def split_into(content):
             title = line.strip().strip('*')
             filename = re.sub(r'[^\w\d -]', '', title)
             filename = re.sub(r'\s+', '_', filename) + '.md'
+            print(f'Found article: {title}')
             most_recent = {
                 "title": title,
                 "filename": filename,
@@ -52,6 +53,22 @@ def split_into(content):
             most_recent['text'].append(line)
 
     return articles
+
+def format_article(article):
+    non_digit = r'\D'
+    phone_regex = r'(\d{3}-\d{3}-\d{4})'
+    list_regex = r'^•\t?'
+    lines = article['text']
+    for i in range(len(lines)):
+        # Strip trailing whitespace
+        lines[i] = lines[i].rstrip(' ')
+        # Find-then-update, rather than just calling re.sub, so we can log nicely.
+        if re.search(non_digit + phone_regex + non_digit, lines[i]) is not None:
+            print(f'Replacing phone number with link in: {lines[i]}')
+            lines[i] = re.sub(phone_regex, r'<a href="tel:\1">\1</a>', lines[i])
+        if re.match(r'•', lines[i]) is not None:
+            print(f'Reformatting list in line: {lines[i]}')
+            lines[i] = re.sub(list_regex, '* ', lines[i])
 
 def write_articles(articles, edition_dir):
     for weight, article in enumerate(articles):
@@ -117,13 +134,14 @@ def main():
     args = parse_args()
 
     with open(args.content) as rfp:
-        articles = split_into(rfp.readlines())
+        articles = split_into_articles(rfp.readlines())
 
     for article in articles:
+        format_article(article)
         article["edition"] = args.edition
 
     edition_dir = ensure_edition_dir(args.edition)
-    # write_articles(articles, edition_dir)
+    write_articles(articles, edition_dir)
     add_index(args.edition, edition_dir)
 
     print('Remember to extract images with: ')

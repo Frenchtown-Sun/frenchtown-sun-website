@@ -50,6 +50,8 @@ When a new edition comes out (current workflow):
   * I like to make small edits to improve the format for web:
     * telephone numbers should turn into phone links: `<a href="tel:555-555-5555">555-555-5555</a>`
     * If something refers to another page (like _see page 4_), just link to the relevant thing.
+* The site deploys when the `main` branch is updated.
+  * The 'edition' pages are dated the first of the month, so they won't build/show up on the website until a deploy is done on or after that date. Normally I don't push the new edition until the first of the month, but if we _do_, we just need to make any change on main or manually run the workflow to get the new edition to deploy.
 
 ## TODO
 * Add checks to enforce formatting/make it hard to mess up:
