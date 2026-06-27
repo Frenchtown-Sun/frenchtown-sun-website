@@ -35,9 +35,9 @@ When a new edition comes out (current workflow):
 * `pdfimages -all <edition.pdf> <edition>` to get the images, which we'll have to manually add to the articles. Then add them to the articles in one of the following ways:
   * If it's the top image for the paper, not part of an article, add it to the `content/<edition>/_index.md` with a markdown image tag.
   * If it's for a "Meet the staff"-type article, use the `portrait_with_text` hugo shortcode by putting `{{% portrait_with_text img="/editions/<path>.png" alt="<name>" %}}` before the text about the person and `{{% /portrait_with_text %}}` after.
-  * If it's for Frenchtown then & now, use the `then_now_imgs` hugo shortcode by putting 
+  * If it's for Frenchtown then & now, use the `then_now_imgs` hugo shortcode by putting
     ```
-      {{% then_now_imgs 
+      {{% then_now_imgs
         then=/editions/<path>.jpg
         now=/editions/<path>.jpg
       %}}
@@ -45,7 +45,7 @@ When a new edition comes out (current workflow):
     at the bottom of the article.
   * For other cases, use a markdown image tag?
 * ... probably other things?
-* Review the content on the website, comparing it to the pdf. 
+* Review the content on the website, comparing it to the pdf.
   * Most formatting should come through correctly, but sometimes it's not quite right and needs tweaking.
   * I like to make small edits to improve the format for web:
     * telephone numbers should turn into phone links: `<a href="tel:555-555-5555">555-555-5555</a>`
