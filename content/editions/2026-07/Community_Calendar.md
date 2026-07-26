@@ -44,7 +44,7 @@ Borough Hall, 29 Second St.
 * Frenchtown Farmers Market, 10 a.m.-2 p.m., 
 Sunbeam Park
 
-## SAVE THE DATE:
+### SAVE THE DATE:
 * **Riverfest**, Sunday, Sept. 6, 11 a.m.-7 p.m.
 * **Frenchtown School’s Centennial 
 Celebration & Community Day**, Saturday, 
