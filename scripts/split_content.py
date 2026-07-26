@@ -55,9 +55,10 @@ def split_into_articles(content):
     return articles
 
 def format_article(article):
-    non_digit = r'\D'
+    non_digit = r'(\D|^)'
     phone_regex = r'(\d{3}-\d{3}-\d{4})'
     list_regex = r'^•\t?'
+    link_regex = r'(https?://)(\S+)'
     lines = article['text']
     for i in range(len(lines)):
         # Strip trailing whitespace
@@ -69,6 +70,14 @@ def format_article(article):
         if re.match(r'•', lines[i]) is not None:
             print(f'Reformatting list in line: {lines[i]}')
             lines[i] = re.sub(list_regex, '* ', lines[i])
+        links = re.findall(link_regex, lines[i])
+        if links:
+            for protocol, link in links:
+                print(f'Formatting link in line: {lines[i]}')
+                link = link.rstrip('.')
+                whole_link = f'{protocol}{link}'
+                md_link = f'[{link}]({whole_link})'
+                lines[i] = re.sub(re.escape(whole_link), md_link, lines[i])
 
 def write_articles(articles, edition_dir):
     for weight, article in enumerate(articles):
