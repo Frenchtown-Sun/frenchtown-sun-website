@@ -16,7 +16,7 @@ and open to the public. More information can be
 found at [frenchtownschool.org/article/3005260](http://frenchtownschool.org/article/3005260). To support the celebration, 
 commemorative merchandise is available for 
 purchase online at FES Centennial Gear: 
-[spcustomgear.store/frenchtowncentennial/store.html?eid=476196](https://spcustomgear.store/frenchtowncentennial/store.html?eid=476196).
+[spcustomgear.store/frenchtowncentennial](https://spcustomgear.store/frenchtowncentennial/store.html?eid=476196).
 Frenchtown Elementary School Will Celebrate Alumni and Community at Centennial 
 
 In recognition of this historic milestone, _The Frenchtown Sun_ met with two FES alumni—Wayne 
