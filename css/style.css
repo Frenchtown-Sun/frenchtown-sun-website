@@ -17,7 +17,7 @@ body {
 
   /* Make the content shrink, so the text on things like the about page
      doesn't get wider than the header. */
-  width: min-content;
+  max-width: 95%;
 
   /* Our newsletter font */
   font-family: "Source Serif 4", serif;
@@ -38,7 +38,7 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: fit-content;
+  width: 100%;
   background: white;
 }
 
@@ -108,12 +108,12 @@ h1 {
 
 /* Page contents */
 .content {
-  /* Inset slightly from the top-nav */
+  /* Inset slightly */
   margin: 20px;
 }
 
 .content img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -134,13 +134,15 @@ h1 {
   display: block;
 }
 
-.portrait {
+/* Include .content to make these more "specific" so they override
+   `.content img` above. */
+.content .portrait {
   float: left;
   max-width: 30%;
   margin: 0 1em 1em 0;
 }
 
-.then-now img {
+.content .then-now img {
   width: 49%;
   display: inline;
 }
