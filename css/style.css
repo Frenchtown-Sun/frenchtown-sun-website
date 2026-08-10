@@ -17,7 +17,7 @@ body {
 
   /* Make the content shrink, so the text on things like the about page
      doesn't get wider than the header. */
-  max-width: 95%;
+  max-width: min(95%, 40em);
 
   /* Our newsletter font */
   font-family: "Source Serif 4", serif;
@@ -77,7 +77,7 @@ h1 {
   height: auto;
   max-height: 100px;
   object-fit: contain;
-  max-width: 10vw;
+  max-width: 12%;
 }
 
 .title-image {
@@ -85,7 +85,7 @@ h1 {
   height: auto;
   max-height: 100px;
   object-fit: contain;
-  max-width: 70vw;
+  max-width: 80%;
 }
 
 .top-menu {
@@ -108,12 +108,12 @@ h1 {
 
 /* Page contents */
 .content {
-  /* Inset slightly */
+  /* Inset slightly from the top-nav */
   margin: 20px;
 }
 
-.content img {
-  max-width: 100%;
+img {
+  width: 100%;
   height: auto;
 }
 
@@ -134,8 +134,7 @@ h1 {
   display: block;
 }
 
-/* Include .content to make these more "specific" so they override
-   `.content img` above. */
+/* Nest under .content to increase "specificity" */
 .content .portrait {
   float: left;
   max-width: 30%;
