@@ -58,7 +58,7 @@ def format_article(article):
     non_digit = r'(\D|^)'
     phone_regex = r'(\d{3}-\d{3}-\d{4})'
     list_regex = r'^•\t?'
-    link_regex = r'(https?://)(\S+)'
+    protocol_regex = r'(https?://)'
     lines = article['text']
     for i in range(len(lines)):
         # Strip trailing whitespace
@@ -70,7 +70,17 @@ def format_article(article):
         if re.match(r'•', lines[i]) is not None:
             print(f'Reformatting list in line: {lines[i]}')
             lines[i] = re.sub(list_regex, '* ', lines[i])
-        links = re.findall(link_regex, lines[i])
+        # Sometimes the links have already been converted to markdown, but
+        # not in the way we want on the website.
+        links = re.findall(protocol_regex+r'(.+)\]', lines[i])
+        if links:
+            for protocol, link in links:
+                print(f'Attempting to de-format link in line: {lines[i]}')
+                whole_link = f'{protocol}{link}'
+                already_md_regex = f'\\[({re.escape(whole_link)})\\]\\(\\1\\)'
+                print(already_md_regex)
+                lines[i] = re.sub(already_md_regex, whole_link, lines[i])
+        links = re.findall(protocol_regex+r'(\S+)', lines[i])
         if links:
             for protocol, link in links:
                 print(f'Formatting link in line: {lines[i]}')

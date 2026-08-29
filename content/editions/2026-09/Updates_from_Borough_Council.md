@@ -1,0 +1,18 @@
+---
+title: "Updates from Borough Council"
+edition: "2026-09"
+weight: 4
+layout: "article"
+---
+At its monthly meeting on August 5, Borough Council conducted the following items of business:  
+* approved an ordinance to revise the Borough Code to allow the Environmental Commission to have two alternative positions;  
+* approved a capital ordinance for various borough improvements, including costs to upfit a vehicle currently owned by the borough to make it “patrol ready” for the Police Department, a new vehicle for day-to-day operational use and renovations to Borough Hall;  
+* authorized the preparation and submission of grant applications to the Large Foundation of Flemington, NJ and the Astle-Alpaugh Foundation to fund the operations of Age Friendly Frenchtown;  
+* received several bids for the Pump Station and Department of Public Works (DPW) facility generator project. Power and Prestige Inc. in Newton, NJ will be awarded the contract;  
+* appointed Carole Pepe as a part-time, as needed, library assistant and authorized the acceptance of a student volunteer to perform volunteer services for the borough;  
+* acknowledged that the DPW erected a new flagpole outside Borough Hall with financial support from the Fargo Family Foundation;  
+* shared that the town administrator and borough engineer had a pre-construction meeting with Comcast. Comcast will be installing three structures around the borough, in the right of way on Hawk St., Maple Ave. and Railroad Ave. to bring fiber connectivity to Frenchtown;  
+* announced that street sweeping is tentatively scheduled for September 1 from 7 a.m. – 9 a.m. Parking will be restricted briefly on Race St. and Bridge St. No vehicles need to be moved in the residential areas;  
+* announced that tax bills are now available online although paper copies are also available at Borough Hall if you have not received your mailed copy. The State of New Jersey was late in providing the borough approval, so tax bills were sent out late. There will be an extension until September 4;  
+* shared two items from the Police Department: 1\) in late July, a large group of motorcyclists rode into town, one individual was arrested and his vehicle was impounded and 2\) there was a dog bite incident off the river path near the Harrison Square apartment complex; the dog was leashed and the person received proper medical attention on the scene.
+
