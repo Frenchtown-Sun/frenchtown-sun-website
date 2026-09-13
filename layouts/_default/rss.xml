@@ -9,8 +9,8 @@
   {{- $pages = $pages | first $limit }}
 {{- end }}
 
-{{ debug.Dump . }}
-{{ debug.Dump $pages }}
+{{- $sun := "The Frenchtown Sun" }}
+{{- $sunEmail := "newsletter@frenchtownboro.com" }}
 
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -20,9 +20,9 @@
     <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo</generator>
     <language>{{ site.Language.Locale }}</language>
-    <managingEditor>The Frenchtown Sun -- newsletter@frenchtownboro.com</managingEditor>
-    <webMaster>newsletter@frenchtownboro.com</webMaster>
-    <copyright>© The Frenchtown Sun</copyright>
+    <managingEditor>{{ $sun }} -- {{ $sunEmail }}</managingEditor>
+    <webMaster>{{ $sunEmail }}</webMaster>
+    <copyright>© {{ $sun }}</copyright>
     {{ if not .Date.IsZero }}
       <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ end }}
@@ -34,7 +34,7 @@
         <title>{{ .Title | markdownify }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-        <author>The Frenchtown Sun</author>
+        <author>{{ $sun }}</author>
         <guid>{{ .Permalink }}</guid>
         <description>{{ .Content | markdownify }}</description>
       </item>
