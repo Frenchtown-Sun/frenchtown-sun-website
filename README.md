@@ -60,5 +60,7 @@ When a new edition comes out (current workflow):
     * alt text on images?
     * Telephone numbers should be links with href="tel:555-555-5555"
 * Digital Calendar
+  * look into webcal:// protocol and [calendar outputs for hugo](https://gohugo.io/configuration/output-formats/)
+* Fix rss feeds
 * How to handle Corrections?
   * It would be neat if corrected articles had a ~~strikethrough~~ and a \[CORRECTION: something something\] with a link to the "corrections" from the next issue.
