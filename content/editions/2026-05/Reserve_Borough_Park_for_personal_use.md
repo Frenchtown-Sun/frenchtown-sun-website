@@ -1,5 +1,6 @@
 ---
 title: "Reserve Borough Park for personal use"
+date: 2026-05-01
 edition: "2026-05"
 weight: 2
 layout: "article"

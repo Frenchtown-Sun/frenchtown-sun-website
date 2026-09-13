@@ -1,5 +1,6 @@
 ---
 title: "County Senior Center offers bocce, Scrabble, cornhole, chess, grief support and more"
+date: 2026-05-01
 edition: "2026-05"
 weight: 11
 layout: "article"

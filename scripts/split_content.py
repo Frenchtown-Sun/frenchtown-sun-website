@@ -11,6 +11,14 @@ import re
 
 ROOT_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
+Date = collections.named_tuple("Date", [
+    "edition",
+    "month_name",
+    "month",
+    "year",
+    "date",
+])
+
 def parse_args(args=None):
     """Parse sys.args or a passed array of args, return argparse namespace"""
     parser = argparse.ArgumentParser()
@@ -89,7 +97,7 @@ def format_article(article):
                 md_link = f'[{link}]({whole_link})'
                 lines[i] = re.sub(re.escape(whole_link), md_link, lines[i])
 
-def write_articles(articles, edition_dir):
+def write_articles(articles, edition_dir, date):
     for weight, article in enumerate(articles):
         with open(os.path.join(edition_dir, article["filename"]), 'w') as wfp:
             front_matter = (
@@ -97,6 +105,7 @@ def write_articles(articles, edition_dir):
                 f'title: "{article["title"]}"\n'
                 f'edition: "{article["edition"]}"\n'
                 f'weight: {weight+1}\n'
+                f'date: {date.date}\n'
                 'layout: "article"\n'
                 '---\n'
             )
@@ -130,27 +139,32 @@ def get_month_name(month_int):
     if month_int == 12:
         return "December"
 
-def add_index(edition, edition_dir):
-    year, month = edition.split('-')
-    year = int(year)
-    month = int(month)
-    month_name = get_month_name(month)
-
+def add_index(date, edition_dir):
     with open(os.path.join(edition_dir, '_index.md'), 'w') as wfp:
         front_matter = (
             '---',
-            f'title: "{month_name}, {year}"',
-            f'year: {year}',
-            f'monthIndex: {month}',
-            f'date: {year}-{month:02}-01',  # Just mark it as the first of the month. Currently just used for sorting.
-            f'pdf: /editions/Frenchtown-Sun-{month_name}-{year}.pdf',
+            f'title: "{date.month_name}, {date.year}"',
+            f'year: {date.year}',
+            f'monthIndex: {date.month}',
+            f'date: {date.date}',
+            f'pdf: /editions/Frenchtown-Sun-{date.month_name}-{date.year}.pdf',
             '---',
         )
         wfp.writelines('\n'.join(front_matter))
 
+def parse_date(edition):
+    year, month = edition.split('-')
+    year = int(year)
+    month = int(month)
+    month_name = get_month_name(month)
+    # Just mark it as the first of the month. Currently just used for sorting.
+    date = f'{year}-{month:02}-01',
+    return Date(edition, month_name, month, year, date)
+
 def main():
     """Trivial main"""
     args = parse_args()
+    date = parse_date(args.edition)
 
     with open(args.content) as rfp:
         articles = split_into_articles(rfp.readlines())
@@ -161,7 +175,7 @@ def main():
 
     edition_dir = ensure_edition_dir(args.edition)
     write_articles(articles, edition_dir)
-    add_index(args.edition, edition_dir)
+    add_index(date, edition_dir)
 
     print('Remember to extract images with: ')
     print('`pdfimages -png -all Frenchtown-Sun-<Month>-<YYYY>.pdf Frenchtown-Sun-<Month>-<YYYY>`')

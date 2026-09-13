@@ -1,5 +1,6 @@
 ---
 title: "Wendy Louise Baker Remembered & Honored with Headstone Ceremony"
+date: 2026-09-01
 edition: "2026-09"
 weight: 12
 layout: "article"

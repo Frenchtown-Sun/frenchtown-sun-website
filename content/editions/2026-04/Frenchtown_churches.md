@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown churches"
+date: 2026-04-01
 edition: "2026-04"
 weight: 16
 layout: "article"

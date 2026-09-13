@@ -1,5 +1,6 @@
 ---
 title: "Planning Board Considering Tightening Data Center Regulations"
+date: 2026-07-01
 edition: "2026-07"
 weight: 4
 layout: "article"

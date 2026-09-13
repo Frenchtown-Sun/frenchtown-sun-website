@@ -1,5 +1,6 @@
 ---
 title: "Update on S. Washington St. Construction"
+date: 2026-06-01
 edition: "2026-06"
 weight: 10
 layout: "article"

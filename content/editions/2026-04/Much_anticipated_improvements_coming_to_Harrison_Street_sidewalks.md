@@ -1,5 +1,6 @@
 ---
 title: "Much-anticipated improvements coming to Harrison Street sidewalks"
+date: 2026-04-01
 edition: "2026-04"
 weight: 7
 layout: "article"

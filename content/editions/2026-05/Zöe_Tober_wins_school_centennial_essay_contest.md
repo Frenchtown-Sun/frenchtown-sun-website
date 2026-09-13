@@ -1,5 +1,6 @@
 ---
 title: "Zöe Tober wins school centennial essay contest"
+date: 2026-05-01
 edition: "2026-05"
 weight: 15
 layout: "article"

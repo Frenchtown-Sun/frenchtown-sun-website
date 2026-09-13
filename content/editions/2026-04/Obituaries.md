@@ -1,5 +1,6 @@
 ---
 title: "Obituaries"
+date: 2026-04-01
 edition: "2026-04"
 weight: 15
 layout: "article"

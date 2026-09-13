@@ -1,5 +1,6 @@
 ---
 title: "A Friendly Greeting Makes a Difference"
+date: 2026-06-01
 edition: "2026-06"
 weight: 14
 layout: "article"

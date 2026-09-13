@@ -1,5 +1,6 @@
 ---
 title: "Meet Del Val BOE Rep Tom Loughlin"
+date: 2026-09-01
 edition: "2026-09"
 weight: 6
 layout: "article"

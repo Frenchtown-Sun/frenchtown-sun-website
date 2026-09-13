@@ -1,5 +1,6 @@
 ---
 title: "In Memoriam: Rick Epstein"
+date: 2026-09-01
 edition: "2026-09"
 weight: 15
 layout: "article"

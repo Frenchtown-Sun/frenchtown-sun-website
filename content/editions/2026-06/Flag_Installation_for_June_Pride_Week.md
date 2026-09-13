@@ -1,5 +1,6 @@
 ---
 title: "Flag Installation for June Pride Week"
+date: 2026-06-01
 edition: "2026-06"
 weight: 9
 layout: "article"

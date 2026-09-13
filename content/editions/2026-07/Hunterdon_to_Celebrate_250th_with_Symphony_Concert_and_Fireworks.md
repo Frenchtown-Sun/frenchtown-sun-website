@@ -1,5 +1,6 @@
 ---
 title: "Hunterdon to Celebrate 250th with Symphony Concert and Fireworks"
+date: 2026-07-01
 edition: "2026-07"
 weight: 8
 layout: "article"

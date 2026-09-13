@@ -1,5 +1,6 @@
 ---
 title: "Kathee’s parking lot update"
+date: 2026-05-01
 edition: "2026-05"
 weight: 14
 layout: "article"

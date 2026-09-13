@@ -1,5 +1,6 @@
 ---
 title: "County Senior Center offerings"
+date: 2026-04-01
 edition: "2026-04"
 weight: 10
 layout: "article"

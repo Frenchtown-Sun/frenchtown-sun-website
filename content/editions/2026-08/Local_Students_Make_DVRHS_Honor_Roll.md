@@ -1,5 +1,6 @@
 ---
 title: "Local Students Make DVRHS Honor Roll"
+date: 2026-08-01
 edition: "2026-08"
 weight: 7
 layout: "article"

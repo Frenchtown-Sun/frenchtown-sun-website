@@ -1,5 +1,6 @@
 ---
 title: "Constant Contact now available for all residents"
+date: 2026-05-01
 edition: "2026-05"
 weight: 1
 layout: "article"

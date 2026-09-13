@@ -1,5 +1,6 @@
 ---
 title: "Updates from Borough Council"
+date: 2026-07-01
 edition: "2026-07"
 weight: 3
 layout: "article"

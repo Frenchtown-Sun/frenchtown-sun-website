@@ -1,5 +1,6 @@
 ---
 title: "These River Rats Go the Distance"
+date: 2026-09-01
 edition: "2026-09"
 weight: 7
 layout: "article"

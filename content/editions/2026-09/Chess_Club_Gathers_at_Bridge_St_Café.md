@@ -1,5 +1,6 @@
 ---
 title: "Chess Club Gathers at Bridge St. Café"
+date: 2026-09-01
 edition: "2026-09"
 weight: 9
 layout: "article"

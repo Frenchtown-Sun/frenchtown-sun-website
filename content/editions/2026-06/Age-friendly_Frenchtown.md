@@ -1,5 +1,6 @@
 ---
 title: "Age-friendly Frenchtown"
+date: 2026-06-01
 edition: "2026-06"
 weight: 7
 layout: "article"

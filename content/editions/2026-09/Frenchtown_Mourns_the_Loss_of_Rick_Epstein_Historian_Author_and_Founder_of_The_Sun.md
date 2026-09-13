@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown Mourns the Loss of Rick Epstein, Historian, Author and Founder of _The Sun_"
+date: 2026-09-01
 edition: "2026-09"
 weight: 2
 layout: "article"

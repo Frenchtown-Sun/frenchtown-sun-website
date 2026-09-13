@@ -1,5 +1,6 @@
 ---
 title: "Meet FBPA President Morgan Taylor"
+date: 2026-08-01
 edition: "2026-08"
 weight: 6
 layout: "article"

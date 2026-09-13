@@ -1,5 +1,6 @@
 ---
 title: "Reminder to Sign Up for Constant Contact"
+date: 2026-07-01
 edition: "2026-07"
 weight: 6
 layout: "article"

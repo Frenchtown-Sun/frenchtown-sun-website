@@ -1,5 +1,6 @@
 ---
 title: "Spotlight: Frenchtown Fire Department"
+date: 2026-08-01
 edition: "2026-08"
 weight: 11
 layout: "article"

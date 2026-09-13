@@ -1,5 +1,6 @@
 ---
 title: "Worst Tick Season in a Decade is Predicted"
+date: 2026-07-01
 edition: "2026-07"
 weight: 2
 layout: "article"

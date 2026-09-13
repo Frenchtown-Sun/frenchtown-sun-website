@@ -1,5 +1,6 @@
 ---
 title: "Community Calendar"
+date: 2026-08-01
 edition: "2026-08"
 weight: 9
 layout: "article"

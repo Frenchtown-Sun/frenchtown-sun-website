@@ -1,5 +1,6 @@
 ---
 title: "Planning/Zoning Board of Adjustment"
+date: 2026-04-01
 edition: "2026-04"
 weight: 11
 layout: "article"

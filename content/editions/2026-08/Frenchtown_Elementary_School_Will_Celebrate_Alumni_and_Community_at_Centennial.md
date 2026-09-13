@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown Elementary School Will Celebrate Alumni and Community at Centennial"
+date: 2026-08-01
 edition: "2026-08"
 weight: 2
 layout: "article"

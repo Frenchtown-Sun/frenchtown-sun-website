@@ -1,5 +1,6 @@
 ---
 title: "Corrections"
+date: 2026-06-01
 edition: "2026-06"
 weight: 11
 layout: "article"

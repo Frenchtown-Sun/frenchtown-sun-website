@@ -1,5 +1,6 @@
 ---
 title: "Madison Rose Finery Opens on Bridge St."
+date: 2026-06-01
 edition: "2026-06"
 weight: 2
 layout: "article"

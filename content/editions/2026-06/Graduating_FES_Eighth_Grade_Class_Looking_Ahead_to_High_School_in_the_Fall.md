@@ -1,5 +1,6 @@
 ---
 title: "Graduating FES Eighth Grade Class Looking Ahead to High School in the Fall"
+date: 2026-06-01
 edition: "2026-06"
 weight: 12
 layout: "article"

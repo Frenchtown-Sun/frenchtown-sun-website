@@ -1,5 +1,6 @@
 ---
 title: "About _The Frenchtown Sun_"
+date: 2026-09-01
 edition: "2026-09"
 weight: 3
 layout: "article"

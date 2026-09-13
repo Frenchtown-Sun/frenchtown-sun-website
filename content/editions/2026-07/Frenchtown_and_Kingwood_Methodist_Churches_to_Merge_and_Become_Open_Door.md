@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown and Kingwood Methodist Churches to Merge and Become Open Door"
+date: 2026-07-01
 edition: "2026-07"
 weight: 11
 layout: "article"

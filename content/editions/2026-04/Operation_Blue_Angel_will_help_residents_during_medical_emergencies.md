@@ -1,5 +1,6 @@
 ---
 title: "Operation Blue Angel will help residents during medical emergencies"
+date: 2026-04-01
 edition: "2026-04"
 weight: 2
 layout: "article"

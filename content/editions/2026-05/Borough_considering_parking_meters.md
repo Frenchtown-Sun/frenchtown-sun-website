@@ -1,5 +1,6 @@
 ---
 title: "Borough considering parking meters"
+date: 2026-05-01
 edition: "2026-05"
 weight: 13
 layout: "article"

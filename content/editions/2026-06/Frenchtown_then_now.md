@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown then & now"
+date: 2026-06-01
 edition: "2026-06"
 weight: 17
 layout: "article"

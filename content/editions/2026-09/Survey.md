@@ -1,5 +1,6 @@
 ---
 title: "_The Sun_ Requests Reader Feedback on Newsletter; Please Fill Out Survey Online"
+date: 2026-09-01
 edition: "2026-09"
 weight: 11
 layout: "article"

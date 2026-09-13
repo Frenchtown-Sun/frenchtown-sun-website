@@ -1,5 +1,6 @@
 ---
 title: "New E-Bike Requirements May Cause Speed Bumps for Riders"
+date: 2026-09-01
 edition: "2026-09"
 weight: 1
 layout: "article"

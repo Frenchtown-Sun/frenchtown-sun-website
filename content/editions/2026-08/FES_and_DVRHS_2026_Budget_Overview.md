@@ -1,5 +1,6 @@
 ---
 title: "FES and DVRHS 2026 Budget Overview"
+date: 2026-08-01
 edition: "2026-08"
 weight: 12
 layout: "article"

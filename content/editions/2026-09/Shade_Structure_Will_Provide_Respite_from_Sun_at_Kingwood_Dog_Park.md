@@ -1,5 +1,6 @@
 ---
 title: "Shade Structure Will Provide Respite from Sun at Kingwood Dog Park"
+date: 2026-09-01
 edition: "2026-09"
 weight: 5
 layout: "article"

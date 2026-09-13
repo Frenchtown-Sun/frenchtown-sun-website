@@ -1,5 +1,6 @@
 ---
 title: "Environmental Commission Hosts “Weevilpalooza” for all ages on July 3"
+date: 2026-07-01
 edition: "2026-07"
 weight: 9
 layout: "article"

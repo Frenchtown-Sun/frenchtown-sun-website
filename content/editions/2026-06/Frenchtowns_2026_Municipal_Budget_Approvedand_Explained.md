@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown’s 2026 Municipal Budget Approved—and Explained"
+date: 2026-06-01
 edition: "2026-06"
 weight: 1
 layout: "article"

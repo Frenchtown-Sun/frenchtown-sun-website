@@ -1,5 +1,6 @@
 ---
 title: "Environmental Commission wants to control invasive vines with beetles"
+date: 2026-05-01
 edition: "2026-05"
 weight: 3
 layout: "article"

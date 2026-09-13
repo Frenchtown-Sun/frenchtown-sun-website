@@ -1,5 +1,6 @@
 ---
 title: "History Spotlight: The Fargo Family Foundation"
+date: 2026-09-01
 edition: "2026-09"
 weight: 17
 layout: "article"

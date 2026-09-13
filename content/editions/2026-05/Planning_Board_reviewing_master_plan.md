@@ -1,5 +1,6 @@
 ---
 title: "Planning Board reviewing master plan"
+date: 2026-05-01
 edition: "2026-05"
 weight: 9
 layout: "article"

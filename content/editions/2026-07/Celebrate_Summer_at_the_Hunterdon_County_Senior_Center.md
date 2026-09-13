@@ -1,5 +1,6 @@
 ---
 title: "Celebrate Summer at the Hunterdon County Senior Center"
+date: 2026-07-01
 edition: "2026-07"
 weight: 10
 layout: "article"

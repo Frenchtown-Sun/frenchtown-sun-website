@@ -1,5 +1,6 @@
 ---
 title: "Del Val Student Journalism Award Named for Rick Epstein"
+date: 2026-09-01
 edition: "2026-09"
 weight: 16
 layout: "article"

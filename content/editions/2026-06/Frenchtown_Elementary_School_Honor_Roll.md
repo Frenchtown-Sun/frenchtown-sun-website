@@ -1,5 +1,6 @@
 ---
 title: "Frenchtown Elementary School Honor Roll"
+date: 2026-06-01
 edition: "2026-06"
 weight: 13
 layout: "article"

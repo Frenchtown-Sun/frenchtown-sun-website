@@ -1,5 +1,6 @@
 ---
 title: "Meet Lions Club President Albert Giarretta"
+date: 2026-08-01
 edition: "2026-08"
 weight: 5
 layout: "article"

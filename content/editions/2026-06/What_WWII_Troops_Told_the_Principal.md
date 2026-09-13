@@ -1,5 +1,6 @@
 ---
 title: "What WWII Troops Told the Principal"
+date: 2026-06-01
 edition: "2026-06"
 weight: 16
 layout: "article"
