@@ -61,7 +61,8 @@ When a new edition comes out (current workflow):
     * Telephone numbers should be links with href="tel:555-555-5555"
 * Digital Calendar
   * look into webcal:// protocol and [calendar outputs for hugo](https://gohugo.io/configuration/output-formats/)
-* Fix rss feeds
+    * seems like someone using apple/google calendar could subscribe to this ics file
+    * Could I support different ics files with different sets of events? Probably.
 * Fix link previews
 * How to handle Corrections?
   * It would be neat if corrected articles had a ~~strikethrough~~ and a \[CORRECTION: something something\] with a link to the "corrections" from the next issue.
