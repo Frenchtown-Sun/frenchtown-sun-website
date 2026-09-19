@@ -66,3 +66,4 @@ When a new edition comes out (current workflow):
 * Fix link previews
 * How to handle Corrections?
   * It would be neat if corrected articles had a ~~strikethrough~~ and a \[CORRECTION: something something\] with a link to the "corrections" from the next issue.
+* Make sure redirects don't show up in rss
