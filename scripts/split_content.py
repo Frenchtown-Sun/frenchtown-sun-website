@@ -11,7 +11,7 @@ import re
 
 ROOT_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
-Date = collections.named_tuple("Date", [
+Date = collections.namedtuple("Date", [
     "edition",
     "month_name",
     "month",
@@ -158,7 +158,7 @@ def parse_date(edition):
     month = int(month)
     month_name = get_month_name(month)
     # Just mark it as the first of the month. Currently just used for sorting.
-    date = f'{year}-{month:02}-01',
+    date = f'{year}-{month:02}-01'
     return Date(edition, month_name, month, year, date)
 
 def main():
@@ -174,7 +174,7 @@ def main():
         article["edition"] = args.edition
 
     edition_dir = ensure_edition_dir(args.edition)
-    write_articles(articles, edition_dir)
+    write_articles(articles, edition_dir, date)
     add_index(date, edition_dir)
 
     print('Remember to extract images with: ')
