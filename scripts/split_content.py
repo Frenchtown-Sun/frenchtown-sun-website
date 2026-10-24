@@ -5,19 +5,10 @@ Takes a markdown download of Maria's Google doc of content, and splits it into a
 """
 
 import argparse
-import collections
 import os
 import re
 
-ROOT_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-
-Date = collections.namedtuple("Date", [
-    "edition",
-    "month_name",
-    "month",
-    "year",
-    "date",
-])
+import edition
 
 def parse_args(args=None):
     """Parse sys.args or a passed array of args, return argparse namespace"""
@@ -29,14 +20,10 @@ def parse_args(args=None):
 
     parser.add_argument(
         'edition',
+        default=utils.next_month(),
         help='the edition, e.g. 2026-05, which will serve as the name of the folder in content/editions')
 
     return parser.parse_args(args)
-
-def ensure_edition_dir(edition):
-    edition_dir = os.path.join(ROOT_DIR, f'content/editions/{edition}')
-    os.makedirs(edition_dir, exist_ok=True)
-    return edition_dir
 
 def split_into_articles(content):
     articles = []
@@ -44,8 +31,7 @@ def split_into_articles(content):
     for line in content:
         if line.startswith('**'):
             title = line.strip().strip('*')
-            filename = re.sub(r'[^\w\d -]', '', title)
-            filename = re.sub(r'\s+', '_', filename) + '.md'
+            filename = utils.filename_from_title(title)
             print(f'Found article: {title}')
             most_recent = {
                 "title": title,
@@ -112,59 +98,10 @@ def write_articles(articles, edition_dir, date):
             wfp.writelines(front_matter)
             wfp.writelines(article["text"])
 
-# TODO: Replace with date.strptime from python 3.14 when I can use that.
-def get_month_name(month_int):
-    if month_int == 1:
-        return "January"
-    if month_int == 2:
-        return "February"
-    if month_int == 3:
-        return "March"
-    if month_int == 4:
-        return "April"
-    if month_int == 5:
-        return "May"
-    if month_int == 6:
-        return "June"
-    if month_int == 7:
-        return "July"
-    if month_int == 8:
-        return "August"
-    if month_int == 9:
-        return "September"
-    if month_int == 10:
-        return "October"
-    if month_int == 11:
-        return "November"
-    if month_int == 12:
-        return "December"
-
-def add_index(date, edition_dir):
-    with open(os.path.join(edition_dir, '_index.md'), 'w') as wfp:
-        front_matter = (
-            '---',
-            f'title: "{date.month_name}, {date.year}"',
-            f'year: {date.year}',
-            f'monthIndex: {date.month}',
-            f'date: {date.date}',
-            f'pdf: /editions/Frenchtown-Sun-{date.month_name}-{date.year}.pdf',
-            '---',
-        )
-        wfp.writelines('\n'.join(front_matter))
-
-def parse_date(edition):
-    year, month = edition.split('-')
-    year = int(year)
-    month = int(month)
-    month_name = get_month_name(month)
-    # Just mark it as the first of the month. Currently just used for sorting.
-    date = f'{year}-{month:02}-01'
-    return Date(edition, month_name, month, year, date)
-
 def main():
     """Trivial main"""
     args = parse_args()
-    date = parse_date(args.edition)
+    date = utils.parse_date(args.edition)
 
     with open(args.content) as rfp:
         articles = split_into_articles(rfp.readlines())
@@ -173,9 +110,9 @@ def main():
         format_article(article)
         article["edition"] = args.edition
 
-    edition_dir = ensure_edition_dir(args.edition)
+    edition_dir = utils.ensure_edition_dir(args.edition)
     write_articles(articles, edition_dir, date)
-    add_index(date, edition_dir)
+    utils.add_index(date, edition_dir)
 
     print('Remember to extract images with: ')
     print('`pdfimages -png -all Frenchtown-Sun-<Month>-<YYYY>.pdf Frenchtown-Sun-<Month>-<YYYY>`')
