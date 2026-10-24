@@ -1,0 +1,24 @@
+---
+title: "Updates from Borough Council"
+edition: "2026-11"
+weight: 4
+date: 2026-11-01
+layout: "article"
+---
+At its monthly meeting on October 7, Borough Council:
+
+* heard a public statement from residents of 310 Harrison St. who experienced a fire at their home and wanted to thank the Frenchtown police and fire rescue services for their heroic efforts. All parties are OK and the residents have found new shelter in town.
+* approved a funding request from the American Legion for the Halloween Parade, held on Saturday, October 24; approved the 8th St. Block Party, held on October 24; approved the “HATCH” Art Festival and Parade for May 3-10, 2027, including park reservations at Sunbeam Lenape Park and Old Frenchtown Field, and the ArtYard Tin Anniversary Gala to be held on Saturday, November 7; and approved Delaware Riverkeepers Ride Along the River for November 7 from 9 a.m. to 5 p.m.
+* approved a Fire Department new member application.
+* adopted a capital ordinance providing for various capital improvements to Borough Hall, appropriating $250,000 ($50,000 from the Borough’s Capital Improvement Fund and $200,000 from a grant received or expected to be received from the New Jersey Department of Community Affairs.
+* adopted an ordinance to amend chapter 50 “Land Use”, article III “General Regulations”, section 301 “Exceptions, Modifications and Supplementary Regulations” of the Borough Code to establish exceptions for permanent wheelchair ramps, first floor bathrooms and medically necessary equipment for residents with mobility limitations and health conditions.
+* introduced an ordinance to amend chapter 50 “Land Use”, article III “General Regulations”, section 303 “Accessory Buildings and Structures” of the Borough Code to establish standards for roof-mounted solar panels. The ordinance will move to the Planning/Zoning Board for consistency review. A public hearing for this ordinance will be held at the next Council meeting on Wednesday, November 4.
+* introduced an ordinance to amend chapter 50 “Land Use,” article I “Title, Purpose, Administration and Definitions,” section 104 “Definitions” and article III “General Regulations,” section 301 “Exceptions, Modifications and Supplementary Regulations” of the Borough Code to prohibit data centers in all zones. A public hearing for the ordinance will be held at the next Council meeting on Wednesday, November 4 (*learn more about data centers [here](/editions/2026-11/borough_council_to_vote_on_prohibiting_data_centers_in_frenchtown)*).
+* approved resolutions authorizing the Mayor and Clerk to execute a federal aid agreement with NJDOT; authorized the Mayor and Clerk to sign a construction support services agreement with NV5 for the Safe Routes to School Project; approved a 2026-2027 commercial HVAC maintenance service agreement; and awarded a professional services contract for Borough Hall architectural services.
+* Approved a resolution supporting the speed limit reduction on Race St./Everittstown Rd. (County Rt. 513) and Kingwood Ave. (County Rt. 610/Rt. 12) within Borough limits. All of Race St./Everittstown Rd. (County Rt. 513) within the Borough limits (both directions) meets the statutory requirements for 25 MPH speed limit. On Kingwood Ave. (County Rt. 610/Rt. 12) within the Borough limits, the following statutory speed limit requirements will apply: from Race St./Bridge St. intersection to Ridge Rd. (both directions) the statutory speed limit is 25 MPH and from Ridge Rd. to the boroughboundary to the east (both directions), the statutory speed limit is 35 MPH.
+* authorized hiring of a special council to review a proposed cannabis ordinance for potential future introduction, ensuring consistency with existing state laws and regulations; further consideration and action will proceed as funding becomes available.
+* acknowledged that Council members and the DPW will update sandbox at Borough Park; Council is still working on bids for skatepark equipment.
+* acknowledged that the sidewalk at the corner of Harrison St. and upper 6th St. had been repaired.
+* shared that after saving animals from the fire on 301 Harrison St., the Police and Fire Departments are putting in a request for animal masks.
+
+The Borough Administrator and Public Safety Director has resigned. Sgt. Eccles serves as the officer in charge. All other needs and questions can be directed to Borough Hall.
